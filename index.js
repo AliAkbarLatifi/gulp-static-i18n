@@ -42,8 +42,9 @@ StaticI18n.prototype.translate = function(done) {
     done();
   };
 
-  translator.register(['.js'], transjs);
-  translator.register(['.hbs'], transhbs);
+  translator.register(['.js'], transhbs);
+  translator.register(['.css'], transhbs);
+  translator.register(['.html'], transhbs);
   translator.register(['.json'], transjson.configure(this.options));
 
   clearStage();
