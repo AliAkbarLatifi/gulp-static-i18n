@@ -30,7 +30,7 @@
     "del": "~1.1.1",
     "gettext-parser": "~1.1.2",
     "gulp-util": "~3.0.7",
-    "lodash": "~3.10.1",
+    "lodash": "~4.14.1",
     "through2": "~0.6.5",
     "vinyl": "~0.4.6",
     "vinyl-fs": "~0.3.14"
